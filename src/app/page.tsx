@@ -61,7 +61,7 @@ export default function Home() {
           value={form.tailNumber}
           onChange={handleChange}
           placeholder="Tail Number"
-          className="w-full border rounded px-3 py-2 text-sm"
+          className="w-full border rounded px-3 py-2 text-sm text-black"
         />
         
         <input
@@ -70,7 +70,7 @@ export default function Home() {
           value={form.aircraftType}
           onChange={handleChange}
           placeholder="Aircraft Type"
-          className="w-full border rounded px-3 py-3 text-sm"
+          className="w-full border rounded px-3 py-3 text-sm text-black"
         />
 
         <input
@@ -78,7 +78,7 @@ export default function Home() {
           name="date"
           value={form.date}
           onChange={handleChange}
-          className="w-full border rounded px-3 py-2 text-sm"
+          className="w-full border rounded px-3 py-2 text-sm text-black"
         />
 
         <input
@@ -87,7 +87,7 @@ export default function Home() {
           value={form.airportId}
           onChange={handleChange}
           placeholder="Airport Identifier"
-          className="w-full border rounded px-3 py-2 text-sm"
+          className="w-full border rounded px-3 py-2 text-sm text-black"
         />
           
         <input
@@ -96,7 +96,7 @@ export default function Home() {
           value={form.fboName}
           onChange={handleChange}
           placeholder="FBO Name"
-          className="w-full border rounded px-3 py-2 text-sm"
+          className="w-full border rounded px-3 py-2 text-sm text-black"
         />
 
         <input
@@ -105,7 +105,7 @@ export default function Home() {
           value={form.services}
           onChange={handleChange}
           placeholder="Requested Services"
-          className="w-full border rounded px-3 py-2 text-sm"
+          className="w-full border rounded px-3 py-2 text-sm text-black"
         />
 
         <input
@@ -114,7 +114,7 @@ export default function Home() {
           value={form.transportation}
           onChange={handleChange}
           placeholder="Transportation"
-          className="w-full border rounded px-3 py-2 text-sm"
+          className="w-full border rounded px-3 py-2 text-sm text-black"
         />
 
         <button
