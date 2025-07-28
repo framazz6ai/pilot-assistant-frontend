@@ -52,7 +52,7 @@ export default function Home() {
 
   return (
     <main className="min-h-screen flex items-center justify-center p-8">
-      <form onSubmit={handleSubmit} className="w-full max-w-md bg-white rounded shadow-md p-6 space-y-4">
+      <form onSubmit={handleSubmit} className="w-full max-w-md bg-white rounded shadow-md p-6 space-y-4 text-black">
         <h1 className="text-2xl font-bold mb-4 text-center">🛫 Pilot Reservation Form</h1>
 
         <input
